@@ -1,0 +1,367 @@
+
+.container{
+    
+color-scheme: light;
+color: var(--gm3-sys-color-on-surface,#1f1f1f);
+font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+direction: ltr;
+font-size: 0.875rem;
+font-weight: 400;
+letter-spacing: 0rem;
+line-height: 1.42857143;
+box-sizing: inherit;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background: var(--gm3-sys-color-surface-container,#f0f4f9);
+justify-content: center;
+padding: 48px 0;
+}
+.container-parts{
+  
+    color-scheme: light;
+    color: var(--gm3-sys-color-on-surface,#1f1f1f);
+    font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    direction: ltr;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.42857143;
+    box-sizing: inherit;
+    background-color: var(--gm3-sys-color-background,white);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 28px;
+    min-height: 400px;
+    padding-left: var(
+    --c-ps-s,36px
+  );
+    padding-right: var(
+    --c-ps-e,124px
+  );
+    padding-bottom: var(
+    --c-ps-t,36px
+  );
+    padding-top: var(
+    --wf-ps-t-bp3-l,108px
+  );
+    width: 840px;
+}
+.sub-part1
+{
+    color-scheme: light;
+    color: var(--gm3-sys-color-on-surface,#1f1f1f);
+    font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+    direction: ltr;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.42857143;
+    box-sizing: inherit;
+    margin-top: calc((var(
+    --wf-brsz,72px
+  ))*-1);
+    padding-right: var(
+    --wf-gutw-hlf,24px
+  );
+    flex-basis: 50%;
+    flex-grow: 1;
+    max-width: 50%;
+}
+.gmail-logo
+{
+color-scheme: light;
+color: var(--gm3-sys-color-on-surface,#1f1f1f);
+font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+direction: ltr;
+font-size: 0.875rem;
+font-weight: 400;
+letter-spacing: 0rem;
+line-height: 1.42857143;
+box-sizing: inherit;
+display: flex;
+justify-content: flex-start;
+height: var(
+--c-brsz,48px
+);
+}
+.extra{
+  color-scheme: light;
+  color: var(--gm3-sys-color-on-surface,#1f1f1f);
+  font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  direction: ltr;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0rem;
+  line-height: 1.42857143;
+  box-sizing: inherit;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+h1.GA{
+  
+  color-scheme: light;
+  direction: ltr;
+  letter-spacing: 0rem;
+  box-sizing: inherit;
+  color: var(--gm3-sys-color-on-surface,#1f1f1f);
+  font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  font-weight: var(--c-tfwt,400);
+  margin-bottom: var(--c-ts-b,0);
+  margin-top: var(--c-ts-t,24px);
+  word-break: break-word;
+  line-height: 1.22222222;
+  font-size: var(--wf-tfs-bp3,2.25rem);
+}
+
+.EN{
+
+  color-scheme: light;
+  direction: ltr;
+  box-sizing: inherit;
+  color: var(--gm3-sys-color-on-surface,#1f1f1f);
+  font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  font-weight: var(--c-stfwt,400);
+  letter-spacing: 0rem;
+  line-height: 1.5;
+  margin-bottom: var(--c-sts-b,0);
+  margin-top: var(--c-sts-t,16px);
+  font-size: var(--wf-stfs,1rem);
+}
+.sub-part2{
+color-scheme: light;
+color: var(--gm3-sys-color-on-surface,#1f1f1f);
+font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+direction: ltr;
+font-size: 0.875rem;
+font-weight: 400;
+letter-spacing: 0rem;
+line-height: 1.42857143;
+box-sizing: inherit;
+
+flex-wrap: wrap;
+flex-basis: 50%;
+flex-grow: 1;
+max-width: 50%;
+padding-left: var(
+--wf-gutw-hlf,24px
+);
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.input-wrapper input {
+  width: 100%; /* Set both input boxes to take up 100% width */
+  color-scheme: light;
+  direction: ltr;
+  width: 112%;
+  height: 10%;
+  padding: 18px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  width: 70%;
+  margin-top:7px ;
+}
+
+input[type="text"] {
+  width: 112%;
+  height: 10%;
+  padding: 18px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Optional: Change input field style on focus */
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.password-wrapper {
+  margin-bottom: 5px; /* Add margin bottom to create space between password and checkbox */
+  
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.sub-part3{
+
+  color-scheme: light;
+  color: var(--gm3-sys-color-on-surface,#1f1f1f);
+  font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  direction: ltr;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0rem;
+  line-height: 1.42857143;
+  box-sizing: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: -15px;
+  margin-left: -16px;
+  margin-top: 32px;
+  width: 15%;
+ 
+}
+.bttn {
+  text-align: center;
+  display: flex;
+}
+
+.bttn .button-link {
+  margin-right: 10px; /* Adjust the margin between buttons */
+}
+
+.bttn button {
+  background-color: #0b57d0;
+  color: white;
+  padding: 11px 26px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.bttnn {
+  text-align: center;
+  display: flex;
+}
+
+
+.bttnn .buttnn1 {
+  background-color:white;
+  color: #0b57d0;
+  padding: 11px 26px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: -12%;
+}
+.bttnn .buttnn1:hover {
+  background-color: transparent;
+}
+.bttnn .buttnn2 {
+  background-color:white;
+  color: #0b57d0;
+  padding: 11px 26px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: -32%;
+  margin-top: 120%;
+}
+.bttnn .buttnn2:hover {
+  background-color: transparent;
+}
+
+.bttnn .button-link {
+  margin-left: 24%;
+  margin-right: 10px; /* Adjust the margin between buttons */
+  background-color: #0b57d0;
+  color: white;
+  padding: 11px 26px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  
+}
+
+
+
+.bttnn button:hover {
+  background-color: #0b57d0;
+}
+
+.bttnn button:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+.bttn button:hover {
+  background-color: #0b57d0;
+}
+
+.bttn button:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}
+
+.footer{
+  
+  color-scheme: light;
+  color: var(--gm3-sys-color-on-surface,#1f1f1f);
+  font-family: "Google Sans",roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+  direction: ltr;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0rem;
+  line-height: 1.42857143;
+  box-sizing: inherit;
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 840px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between; /* Distribute items horizontally with space between */
+  align-items: center; /* Align items vertically */
+}
+/* Style the dropdown button */
+.dropdown button {
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  padding: 25px; /* Remove padding */
+  font-size: 1spx;
+  cursor: pointer;
+  color: #000; /* Set text color */
+}
+
+.dropdown button:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+
+.extra2 {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+  margin: 0;
+}
+
+.extra2 li {
+  display: inline; /* Display list items inline */
+  margin-right: 10px; /* Adjust spacing between items */
+}
+
+.extra2 li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #000; /* Set link color */
+  padding: 5px 10px; /* Add padding to create button-like appearance */
+  border: none;
+  border-radius: 4px; /* Add border radius for rounded corners */
+}
+
+.extra2 li a:hover {
+  background-color: #000; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
